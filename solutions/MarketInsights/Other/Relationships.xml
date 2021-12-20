@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="lk_ur_bingsearchresult_createdby" />
+  <EntityRelationship Name="lk_ur_bingsearchresult_modifiedby" />
+  <EntityRelationship Name="lk_ur_brand_createdby" />
+  <EntityRelationship Name="lk_ur_brand_modifiedby" />
+  <EntityRelationship Name="lk_ur_domain_createdby" />
+  <EntityRelationship Name="lk_ur_domain_modifiedby" />
+  <EntityRelationship Name="organization_ur_bingsearchresult" />
+  <EntityRelationship Name="organization_ur_brand" />
+  <EntityRelationship Name="organization_ur_domain" />
+  <EntityRelationship Name="ur_bingsearchresult_brand_ur_brand" />
+  <EntityRelationship Name="ur_bingsearchresult_domain_ur_domain" />
+</EntityRelationships>

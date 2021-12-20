@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0c425ecb-da83-4e65-9d45-723a7cd5e18b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_name" select="1" icon="1" preview="1">
+        <row name="result" id="ur_bingsearchresultid">
+          <cell name="ur_name" width="250" />
+          <cell name="ur_domain" width="150" />
+          <cell name="ur_brand" width="100" />
+          <cell name="ur_bingsearchtopic" width="150" />
+          <cell name="ur_totalestimatedmatches" width="100" />
+          <cell name="ur_websearchurl" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_bingsearchresult">
+          <attribute name="ur_bingsearchresultid" />
+          <attribute name="ur_name" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ur_bingsearchtopic" />
+          <attribute name="ur_websearchurl" />
+          <attribute name="ur_domain" />
+          <attribute name="ur_totalestimatedmatches" />
+          <attribute name="ur_brand" />
+          <order attribute="ur_domain" descending="false" />
+          <order attribute="ur_brand" descending="false" />
+          <order attribute="createdon" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Bing Search Results" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

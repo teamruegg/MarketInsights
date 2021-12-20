@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{aecedd02-c974-4046-90f8-83eae56b6ced}</formid>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{2d293bf5-94cc-406a-b6f6-e8fb34659fe6}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a55adc2f-8408-43ee-b6c8-16ce595b7678}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6b8c7a6b-df42-44cf-ac45-fec559b58196}">
+                        <labels>
+                          <label description="Domain Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_domainname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_domainname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c84a90eb-c17f-485a-92d3-947a51e37f3b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Domain Url" languagecode="1033" />
+                        </labels>
+                        <control id="ur_domainurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="ur_domainurl" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{be63d9db-8da9-4e42-8c7e-fdbf0547c151}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{dfcaad9c-c752-40f6-a820-96e6745d5d5f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a1c5f9ba-e82d-470b-a554-4e518f9fc3ba}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{055c00ad-58e9-41f9-be6a-4098d207630c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{251c1d85-415d-452b-8b60-54beb81e641b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{dae620a4-2f61-42c3-aa34-10dcd1435033}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{33660521-eb4b-4aeb-aa2f-2318dfff3fd3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0be483ab-f840-4848-bce9-7ba4d2a121eb}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

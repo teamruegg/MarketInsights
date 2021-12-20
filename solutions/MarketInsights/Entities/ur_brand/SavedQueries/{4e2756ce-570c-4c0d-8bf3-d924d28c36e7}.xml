@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4e2756ce-570c-4c0d-8bf3-d924d28c36e7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ur_brandname" select="1" icon="1" preview="1">
+        <row name="result" id="ur_brandid">
+          <cell name="ur_brandname" width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ur_brand">
+          <attribute name="ur_brandid" />
+          <attribute name="ur_brandname" />
+          <order attribute="ur_brandname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Brands" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

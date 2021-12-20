@@ -1,0 +1,26 @@
+<entities >
+  <entity name="ur_domain" displayname="Domain" etc="10088" primaryidfield="ur_domainid" primarynamefield="ur_domainname" disableplugins="false">
+    <fields>
+      <field displayname="Domain" name="ur_domainid" type="guid" primaryKey="true" />
+      <field displayname="Domain Name" name="ur_domainname" type="string" customfield="true" />
+      <field displayname="Domain Url" name="ur_domainurl" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="ur_brand" displayname="Brand" etc="10087" primaryidfield="ur_brandid" primarynamefield="ur_brandname" disableplugins="false">
+    <fields>
+      <field displayname="Brand" name="ur_brandid" type="guid" primaryKey="true" />
+      <field displayname="Brand Name" name="ur_brandname" type="string" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="ur_bingsearchresult" displayname="Bing Search Result" etc="10086" primaryidfield="ur_bingsearchresultid" primarynamefield="ur_name" disableplugins="false">
+    <fields>
+      <field displayname="Name" name="ur_name" type="string" customfield="true" />
+      <field displayname="Bing Search Result" name="ur_bingsearchresultid" type="guid" primaryKey="true" />
+      <field displayname="Bing Search Topic" name="ur_bingsearchtopic" type="optionsetvalue" customfield="true" />
+      <field displayname="Brand" name="ur_brand" type="entityreference" lookupType="ur_brand" customfield="true" />
+      <field displayname="Domain" name="ur_domain" type="entityreference" lookupType="ur_domain" customfield="true" />
+      <field displayname="Total Estimated Matches" name="ur_totalestimatedmatches" type="number" customfield="true" />
+      <field displayname="Web Search Url" name="ur_websearchurl" type="string" customfield="true" />
+    </fields>
+  </entity>
+</entities>

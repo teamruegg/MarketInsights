@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3d855d12-682d-4e4d-b6d1-02b058633651}</formid>
+    <IntroducedVersion>0.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{47a5686b-e6ed-4976-918e-bf1df3b66ebb}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{7e7e51a3-41cd-4842-9f21-9b6d44bf9bc8}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{bf8eac4a-a301-4446-bede-b1cead4ec003}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="ur_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ur_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{01597026-8f9b-4134-aa2e-8005c46f6191}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bing Search Topic" languagecode="1033" />
+                        </labels>
+                        <control id="ur_bingsearchtopic" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ur_bingsearchtopic" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0d4aa831-9c07-47d8-ab7e-24315a16a765}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Domain" languagecode="1033" />
+                        </labels>
+                        <control id="ur_domain" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_domain" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{012bcbf1-3819-4624-9c23-e1ea0a630889}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Brand" languagecode="1033" />
+                        </labels>
+                        <control id="ur_brand" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ur_brand" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ff123f24-60a9-4a6c-9120-b178d8b608e1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Estimated Matches" languagecode="1033" />
+                        </labels>
+                        <control id="ur_totalestimatedmatches" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="ur_totalestimatedmatches" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{81807821-7818-4a04-8fb2-146a6763068b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Web Search Url" languagecode="1033" />
+                        </labels>
+                        <control id="ur_websearchurl" classid="{71716B6C-711E-476C-8AB8-5D11542BFB47}" datafieldname="ur_websearchurl" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{96ffd9fc-c679-4787-8888-ecf4b49bb857}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{45134729-e0bb-41c5-bf09-f97fcde30ac3}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{da6a3aad-5f80-41db-bb26-28c038efb091}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{74ecb2bf-b2a8-4288-9e58-5f9dcbdc3b95}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{cb775c54-5032-4a32-85bf-c518e076fb42}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{798303bf-068b-402f-8671-3b1fc592be6a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ced58b1a-8f2e-4476-a0a7-271e94c13c51}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{14c5aa0f-8b19-4925-a699-8e84c49c1337}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true" />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

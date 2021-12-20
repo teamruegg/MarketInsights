@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.18945" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MarketInsights</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Market Insights" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>0.0.0.4</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>ursruegg</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Urs Rüegg" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress>urs.ruegg@teamruegg.com</EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ur</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>31581</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City>Zumikon</City>
+          <County xsi:nil="true"></County>
+          <Country>Switzerland</Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1>Ankenbüel 7</Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode>8126</PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince>ZH</StateOrProvince>
+          <Telephone1>+41 (79) 6001784</Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ur_bingsearchresult" behavior="0" />
+      <RootComponent type="1" schemaName="ur_brand" behavior="0" />
+      <RootComponent type="1" schemaName="ur_domain" behavior="0" />
+      <RootComponent type="9" schemaName="ur_bingsearchtopic" behavior="0" />
+      <RootComponent type="29" id="{12855f01-864a-ea11-a812-000d3a24cd8e}" behavior="0" />
+      <RootComponent type="29" id="{1855a0d6-3156-ea11-a811-000d3a24ce33}" behavior="0" />
+      <RootComponent type="29" id="{e2f04215-534f-ea11-a812-000d3a24cd8e}" behavior="0" />
+      <RootComponent type="60" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" behavior="0" />
+      <RootComponent type="60" id="{e3356330-844a-ea11-a812-000d3a24cd8e}" behavior="0" />
+      <RootComponent type="62" schemaName="ur_marketinsights" behavior="0" />
+      <RootComponent type="80" schemaName="ur_marketinsights" behavior="0" />
+      <RootComponent type="380" schemaName="ur_bingwebsearchsubscriptionkey" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="ms_newsitem" displayName="News" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="2" schemaName="ms_category" displayName="Category" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="ms_dateposted" displayName="Date Posted" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="4" type="2" schemaName="entityimage_url" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="Active" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="2" schemaName="ms_url" displayName="Url" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="6" type="2" schemaName="ms_grouporder" displayName="Group Order" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="2" schemaName="ms_group" displayName="Group" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="2" schemaName="ms_displaysummary" displayName="Display Summary" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="9" type="2" schemaName="ms_name" displayName="Name" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="10" schemaName="msdyn_account_msdyn_agreement_ServiceAccount" displayName="msdyn_account_msdyn_agreement_ServiceAccount" parentSchemaName="msdyn_agreement" parentDisplayName="Agreement" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="11" type="10" schemaName="msdyn_account_msdyn_customerasset_Account" displayName="msdyn_account_msdyn_customerasset_Account" parentSchemaName="msdyn_customerasset" parentDisplayName="Device" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="12" type="10" schemaName="msdyn_account_msdyn_accountpricelist_Account" displayName="msdyn_account_msdyn_accountpricelist_Account" parentSchemaName="msdyn_accountpricelist" parentDisplayName="Account Project Price List" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="13" type="10" schemaName="msdyn_account_msdyn_rma_ServiceAccount" displayName="msdyn_account_msdyn_rma_ServiceAccount" parentSchemaName="msdyn_rma" parentDisplayName="RMA" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="14" type="10" schemaName="msdyn_account_msdyn_workorder_BillingAccount" displayName="msdyn_account_msdyn_workorder_BillingAccount" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="15" type="10" schemaName="ms_account_ms_satori" displayName="ms_account_ms_satori" parentSchemaName="account" parentDisplayName="Account" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="10" schemaName="msdyn_account_msdyn_project_Customer" displayName="msdyn_account_msdyn_project_Customer" parentSchemaName="msdyn_project" parentDisplayName="Project" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="17" type="10" schemaName="msdyn_account_msdyn_payment_Account" displayName="msdyn_account_msdyn_payment_Account" parentSchemaName="msdyn_payment" parentDisplayName="Payment" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="18" type="10" schemaName="msdyn_account_msdyn_rtv_Vendor" displayName="msdyn_account_msdyn_rtv_Vendor" parentSchemaName="msdyn_rtv" parentDisplayName="RTV" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="10" schemaName="msdyn_account_msdyn_purchaseorder_Vendor" displayName="msdyn_account_msdyn_purchaseorder_Vendor" parentSchemaName="msdyn_purchaseorder" parentDisplayName="Purchase Order" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="10" schemaName="msdyn_account_account_BillingAccount" displayName="msdyn_account_account_BillingAccount" parentSchemaName="account" parentDisplayName="Account" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="21" type="10" schemaName="msdyn_account_msdyn_agreement_BillingAccount" displayName="msdyn_account_msdyn_agreement_BillingAccount" parentSchemaName="msdyn_agreement" parentDisplayName="Agreement" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="22" type="10" schemaName="msdyn_account_msdyn_rma_BillingAccount" displayName="msdyn_account_msdyn_rma_BillingAccount" parentSchemaName="msdyn_rma" parentDisplayName="RMA" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="23" type="10" schemaName="msdyn_account_msdyn_workorder_ServiceAccount" displayName="msdyn_account_msdyn_workorder_ServiceAccount" parentSchemaName="msdyn_workorder" parentDisplayName="Work Order" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="26" schemaName="Active News" displayName="Active News" parentSchemaName="ms_newsitem" parentDisplayName="News" solution="CompanyNewsTimeline (9.0.1.716)" id="{0b44b434-1267-4bbb-b016-116a40d7fedd}" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="25" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="26" type="66" schemaName="MscrmControls.LinkedInIntegration.LinkedInLeadLookupControl" displayName="MscrmControls.LinkedInIntegration.LinkedInLeadLookupControl" solution="LinkedInSalesNavigatorControlsForUnifiedClient (3.0.1.0350)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="27" type="66" schemaName="MscrmControls.LinkedInIntegration.LinkedInAccountControl" displayName="MscrmControls.LinkedInIntegration.LinkedInAccountControl" solution="LinkedInSalesNavigatorControlsForUnifiedClient (3.0.1.0350)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="28" type="66" schemaName="MscrmControls.Timeline.TimelineControl" displayName="MscrmControls.Timeline.TimelineControl" solution="CustomControlsCore (9.1.0000.18945)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="29" type="61" schemaName="msdyn_/Utils/head1.0.3.js" displayName="msdyn_/Utils/head1.0.3.js" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="30" type="61" schemaName="msdyn_/Utils/FieldServiceTrial.js" displayName="msdyn_/Utils/FieldServiceTrial.js" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="31" type="61" schemaName="ms_news_control.js" displayName="ms_news_control.js" solution="CompanyNewsTimeline (9.0.1.716)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="32" type="61" schemaName="msdyn_/Account/Account.Library.js" displayName="msdyn_/Account/Account.Library.js" solution="FieldService (7.5.0.60)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="61" schemaName="LinkedInIntegration/Common/msdyn_LinkedInIntegrationCommon.js" displayName="LinkedInIntegration/Common/msdyn_LinkedInIntegrationCommon.js" solution="LinkedInSalesNavigatorControlsForUnifiedClient (3.0.1.0350)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="34" type="61" schemaName="msdyn_/Libraries/require/require.js" displayName="msdyn_/Libraries/require/require.js" solution="ProjectService (2.4.0.51)" />
+        <Dependent key="1" type="60" displayName="Seller" parentDisplayName="Account" id="{2df5abf1-5d4f-ea11-a812-000d3a24cd8e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="36" type="80" schemaName="ur_marketinsights" displayName="Market Insights" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

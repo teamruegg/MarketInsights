@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ur_marketinsights</UniqueName>
+  <IntroducedVersion>0.0.0.1</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ur_marketinsights" />
+    <AppModuleComponent type="60" id="{e3356330-844a-ea11-a812-000d3a24cd8e}" />
+    <AppModuleComponent type="1" schemaName="ur_bingsearchresult" />
+    <AppModuleComponent type="60" id="{3d855d12-682d-4e4d-b6d1-02b058633651}" />
+    <AppModuleComponent type="1" schemaName="ur_brand" />
+    <AppModuleComponent type="60" id="{c5d5feb5-138b-423b-bb6b-028e4d99cd0c}" />
+    <AppModuleComponent type="1" schemaName="ur_domain" />
+    <AppModuleComponent type="60" id="{aecedd02-c974-4046-90f8-83eae56b6ced}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Market Insights" languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description description="Market Insights app for data gathering" languagecode="1033" />
+  </Descriptions>
+</AppModule>
