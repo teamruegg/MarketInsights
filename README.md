@@ -1,16 +1,12 @@
-![Image of Market Insights](/Images/MarketInsights_apps_255x115.png)
-
-[![Board Status](https://dev.azure.com/teamruegg/6db40994-82b2-4684-a9e1-59bfeae53506/b0d6b860-b31c-4486-9672-1327d5205bb2/_apis/work/boardbadge/0e9736c0-a98d-4ada-a6f7-0a386615ade1?columnOptions=1)](https://dev.azure.com/teamruegg/6db40994-82b2-4684-a9e1-59bfeae53506/_boards/board/t/b0d6b860-b31c-4486-9672-1327d5205bb2/Microsoft.RequirementCategory/) [![Build Status](https://dev.azure.com/teamruegg/Market%20Insights/_apis/build/status/Market%20Insights-CI-Build%20Managed%20Solution?branchName=master)](https://dev.azure.com/teamruegg/Market%20Insights/_build/latest?definitionId=10&branchName=master)
-
+![Image of Market Insights](/images/MarketInsights_apps_255x115.png)
 
 # Market Insights 
 In a B2B2C (Brand-Channel Partner-Customer) scenario we want to gain insights about the share of brand of our actual and potential partners to evaluate their end customer communication. To evaluate our brand against our competitors we’re establishing a share of brand metric.
 
 
 # Application
--------------
 
-##Prerequisites
+## Prerequisites
 The Market Insights app is build on top of the Power Platform. And therefor the following licences needs to be assigned and configured within the targed environement.
 * Power Apps 
 * Power Automate
@@ -18,7 +14,6 @@ The Market Insights app is build on top of the Power Platform. And therefor the 
 
 
 # Development
--------------
 
 ## Prerequisite
 * Visual Studio
